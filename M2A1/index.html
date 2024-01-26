@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/script.js"></script>
+    <title>Food Order Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Food Order Form</h1>
+        <form id="orderForm">
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" required>
+
+            <h2>Drinks</h2>
+            <label for="coke">Coke:</label>
+            <input type="number" id="coke" name="drinks" value="0">
+
+            <label for="dietCoke">Diet Coke:</label>
+            <input type="number" id="dietCoke" name="drinks" value="0">
+
+            <label for="drPepper">Dr. Pepper:</label>
+            <input type="number" id="drPepper" name="drinks" value="0">
+
+            <label for="sprite">Sprite:</label>
+            <input type="number" id="sprite" name="drinks" value="0">
+
+            <label for="water">Water:</label>
+            <input type="number" id="water" name="drinks" value="0">
+
+            <h2>Sandwiches</h2>
+            <label for="hamburger">Hamburger:</label>
+            <input type="number" id="hamburger" name="sandwiches" value="0">
+
+            <label for="cheeseburger">Cheeseburger:</label>
+            <input type="number" id="cheeseburger" name="sandwiches" value="0">
+
+            <label for="hamSub">Ham Sub:</label>
+            <input type="number" id="hamSub" name="sandwiches" value="0">
+
+            <label for="turkeySub">Turkey Sub:</label>
+            <input type="number" id="turkeySub" name="sandwiches" value="0">
+
+            <label for="veggieBurger">Veggie Burger:</label>
+            <input type="number" id="veggieBurger" name="sandwiches" value="0">
+
+            <h2>Desserts/Sides</h2>
+            <label for="fries">Fries:</label>
+            <input type="number" id="fries" name="desertsSides" value="0">
+
+            <label for="chips">Chips:</label>
+            <input type="number" id="chips" name="desertsSides" value="0">
+
+            <label for="coleSlaw">Cole Slaw:</label>
+            <input type="number" id="coleSlaw" name="desertsSides" value="0">
+
+            <label for="iceCream">Ice Cream:</label>
+            <input type="number" id="iceCream" name="desertsSides" value="0">
+
+            <label for="slushie">Slushie:</label>
+            <input type="number" id="slushie" name="desertsSides" value="0">
+
+            <button type="button" onclick="calculateOrder()">Submit Order</button>
+    </form>
+
+    <div id="orderSummary" class="hidden">
+        <h2>Order Summary</h2>
+        <div id="drinkCost">Drinks Cost: $0.00</div>
+        <div id="sandwichCost">Sandwiches Cost: $0.00</div>
+        <div id="desertSidesCost">Desserts/Sides Cost: $0.00</div>
+        <div id="totalCost">Total Cost: $0.00</div>
+    </div>
+</div>
+  
+</body>
+</html>
