@@ -5,6 +5,27 @@ const dog1 = {
     altTag: "Black dog in bucket."
 };
 
+const dog2 = {
+    heading: "Golden Puppy",
+    image: "images/gold-dog.jpg",
+    caption: "Enjoying the dog days of Summer",
+    altTag: "Golden."
+};
+
+const dog3 = {
+    heading: "Lend me a hand",
+    image: "images/snow-dog.jpg",
+    caption: "Just hanging out waiting for water",
+    altTag: "Need a hand."
+};
+
+const dog4 = {
+    heading: "Sweethearts",
+    image: "images/white-dogs.jpg",
+    caption: "Just hanging out waiting for water",
+    altTag: "Aww."
+};
+
 function chooseDog(dog) {
     if (dog == 1) {
         loadMe(dog1, 1);
