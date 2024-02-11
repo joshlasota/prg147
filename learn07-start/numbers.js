@@ -128,7 +128,6 @@ document.getElementById("switch").textContent = answer;
     let a = 10;
 
     let result = (a > 5) ? "a is greater than 5" : "a is not greater than 5";
-
+    }
     document.getElementById("ternary").textContent = result; 
     }   
-}
