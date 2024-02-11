@@ -124,10 +124,7 @@ document.getElementById("switch").textContent = answer;
     // Watch Terse ifs: https://www.linkedin.com/learning/learning-the-javascript-language-2/terse-ifs?autoAdvance=true&autoSkip=true&autoplay=true&resume=false&u=69317474
     // Watch Ternary Operator:https://www.linkedin.com/learning/learning-the-javascript-language-2/ternary-operator?autoplay=true&resume=false&u=69317474
     // Write code to demonstrate the use of the ternary operator and print to the ternary paragraph
-    function start() {
-    let a = 10;
-
-    let result = (a > 5) ? "a is greater than 5" : "a is not greater than 5";
-    }
-    document.getElementById("ternary").textContent = result; 
-    }   
+    const condition = true;
+    const ternaryResult = condition ? "Condition is true" : "Condition is false";
+    document.getElementById("ternary").textContent = ternaryResult;
+}   
