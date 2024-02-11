@@ -9,8 +9,8 @@ let attemptsLeft = 6;
 let output = '';
 let userLetter = '';
 let found = false;
-let usedLetters = []; // Array to store used letters
-let hangmanImageIndex = 0; // Index to track hangman image
+let usedLetters = [];
+let hangmanImageIndex = 0;
 
 function setup() {
     alert(answer);
@@ -27,15 +27,14 @@ document.getElementById("submit").addEventListener("click", function(event) {
     userLetter = document.getElementById("guess").value.toUpperCase();
     document.getElementById("guess").value = '';
 
-    // Check if the letter has been already used
     if (usedLetters.includes(userLetter)) {
         alert("You've already used this letter!");
         return;
     }
 
-    usedLetters.push(userLetter); // Add letter to used letters
+    usedLetters.push(userLetter);
 
-    found = false; // Reset found flag
+    found = false;
 
     for (let c = 0; c < answer.length; c++) {
         if (userLetter === letters[c]) {
@@ -49,7 +48,7 @@ document.getElementById("submit").addEventListener("click", function(event) {
     if (!found) {
         attemptsLeft--;
         hangmanImageIndex++;
-        document.getElementById("hangman").src = "images/0" + (hangmanImageIndex + 1) + ".png"; // Update hangman image
+        document.getElementById("hangman").src = "images/0" + (hangmanImageIndex + 1) + ".png";
     }
 
     if (win < 1) {
@@ -61,5 +60,4 @@ document.getElementById("submit").addEventListener("click", function(event) {
     }
 
     document.getElementById("word").innerHTML = output;
-    document.getElementById("guessed").innerHTML = 'Used Letters: ' + usedLetters.join(', '); // Display used letters
-});
+    document.getElementById("guessed").innerHTML = 'Used Letters: ' + usedLetters.join(', '); 
