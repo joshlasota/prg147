@@ -60,4 +60,5 @@ document.getElementById("submit").addEventListener("click", function(event) {
     }
 
     document.getElementById("word").innerHTML = output;
-    document.getElementById("guessed").innerHTML = 'Used Letters: ' + usedLetters.join(', '); 
+    document.getElementById("guessed").innerHTML = 'Used Letters: ' + usedLetters.join(', ');
+});
