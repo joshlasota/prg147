@@ -1,0 +1,45 @@
+{
+    "albums": [
+      {
+        "title": "Thriller",
+        "artist": "Michael Jackson"
+      },
+      {
+        "title": "Abbey Road",
+        "artist": "The Beatles"
+      },
+      {
+        "title": "The Dark Side of the Moon",
+        "artist": "Pink Floyd"
+      },
+      {
+        "title": "Hotel California",
+        "artist": "Eagles"
+      },
+      {
+        "title": "Back in Black",
+        "artist": "AC/DC"
+      },
+      {
+        "title": "Rumours",
+        "artist": "Fleetwood Mac"
+      },
+      {
+        "title": "The Wall",
+        "artist": "Pink Floyd"
+      },
+      {
+        "title": "Led Zeppelin IV",
+        "artist": "Led Zeppelin"
+      },
+      {
+        "title": "The Joshua Tree",
+        "artist": "U2"
+      },
+      {
+        "title": "Graceland",
+        "artist": "Paul Simon"
+      }
+    ]
+  }
+  

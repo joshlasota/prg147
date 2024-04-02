@@ -1,0 +1,25 @@
+{
+    "songs": [
+      {
+        "album": "Thriller",
+        "songs": ["Wanna Be Startin' Somethin'", "Billie Jean", "Beat It", "Thriller", "Human Nature"]
+      },
+      {
+        "album": "Abbey Road",
+        "songs": ["Come Together", "Something", "Maxwell's Silver Hammer", "Oh! Darling", "Here Comes the Sun"]
+      },
+      {
+        "album": "The Dark Side of the Moon",
+        "songs": ["Speak to Me", "Breathe", "On the Run", "Time", "The Great Gig in the Sky"]
+      },
+      {
+        "album": "Hotel California",
+        "songs": ["Hotel California", "New Kid in Town", "Life in the Fast Lane", "Wasted Time", "Victim of Love"]
+      },
+      {
+        "album": "Back in Black",
+        "songs": ["Hells Bells", "Shoot to Thrill", "Back in Black", "You Shook Me All Night Long", "Rock and Roll Ain't Noise Pollution"]
+      }
+    ]
+  }
+  
